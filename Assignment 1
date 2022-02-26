@@ -1,0 +1,13 @@
+n=int(input('enter the value: '))
+
+l=[]
+
+for i in range(n):
+
+    x=int(input())
+
+    l.append(x)
+
+l.sort(reverse=True)
+
+print(l)
